@@ -1,0 +1,38 @@
+<header>
+  <!--Responsive Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" target="_blank" href="#">
+        <img class="img-fluid" src="../assets/images/logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link p-3" routerLink="homepage">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-3" routerLink="product">Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-3" href="#features">Chat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-3" routerLink="addtopics">ADD Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-3" routerLink="login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-3" routerLink="login">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>
